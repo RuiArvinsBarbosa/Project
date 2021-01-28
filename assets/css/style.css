@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    font-size: 100%;
+    font-family: Montserrat;
+}
+/* Circle who isnt a circle */
+#container{
+    margin: auto;
+    width: 50%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+#ImgCarro{
+    width: 100%;
+    object-fit: contain;
+}
+h1{
+    font-size: 100%;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+h2{
+    margin-top: 3%;
+    font-size: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+body{
+    width: 100%;
+}
+#Cartão{
+    width: 35%;
+    min-height: 100%;
+    margin: auto;
+    color: black;
+    background-color: #525252;
+    -moz-box-shadow: 1px 1px 7px #000000;
+    -webkit-box-shadow: 1px 1px 7px #000000;
+    box-shadow: 1px 1px 7px #000000;
+    padding: 2% 4% 2% 4%;
+    text-align:center;
+    color: white;
+}
+#btns{
+    margin-top: 4%;
+}
+#btns i{
+    font-size: 200%;
+}
+.btn{
+    display: table-cell;
+    border:  1px solid  #FFFFFF !important;
+    border-radius: 1%;
+    padding: 3%;
+    background-color: #525252;
+    color:white;
+    font-size: 100%;
+}
+.btn:first-child{
+    margin-right: 6%;
+}
+.btn:hover{
+    background-color: rgb(58, 53, 53);
+}
+
+.white{
+    color: white !important;
+}
+/* Resize when small */
+@media all and (max-width:770px){
+    .btn:first-child{
+        margin-right: 0%;
+        margin-bottom: 4%;
+    }
+}
